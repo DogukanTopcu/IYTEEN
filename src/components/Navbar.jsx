@@ -17,7 +17,7 @@ const SubNav = ({ isOpen, setIsOpen }) => {
     }, [isOpen])
 
     return (
-        <div className={`bg-red-500 sm:px-8 px-2 bg-white py-2 ${translate} relative z-0 transition-all duration-300 ease-linear`}>
+        <div className={`bg-green-500 sm:px-8 px-2 py-2 ${translate} relative z-0 transition-all duration-300 ease-linear`}>
             <h3 onClick={() => {
                 window.scrollTo(0,0); 
                 setIsOpen(false);
