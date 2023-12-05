@@ -229,7 +229,7 @@ export const events = [
             {
                 name: "Çetin Aykırı",
                 organization: "TPI Composİtes",
-                title: "Program Yönetimi ve Saha Hizmelteri Direktörü",
+                title: "Program Yönetimi ve Saha Hizmetleri Direktörü",
                 img: CetinAykiri
             },
             {
