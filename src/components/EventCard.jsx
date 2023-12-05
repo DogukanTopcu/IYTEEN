@@ -13,10 +13,13 @@ const EventCard = ({ event }) => {
             {
                 event.speakers.map((speaker, i) => {
                     return (
-                        <div key={i} className='my-4 ml-8 flex items-center'>
-                            <img className='h-24' src={speaker.img} alt="speaker" />
-                            <div className='ml-2'>
+                        <div key={i} className='my-4 ml-8 items-center grid grid-cols-3'>
+                            <div className='w-24 h-24 rounded-full flex justify-center items-center cover border-4 border-red-500 overflow-hidden'>
+                                <img className='pointer-events-none' src={speaker.img} alt="speaker" />
+                            </div>
+                            <div className='ml-2 col-span-2'>
                                 <h3 className='font-bold'>{speaker.name}</h3>
+                                <h3 className='font-light text-sm'>{speaker.title}</h3>
                                 <h3 className={speaker.name !== "" ? `font-light text-sm` : `font-bold`}>{speaker.organization}</h3>
                             </div>
                         </div>

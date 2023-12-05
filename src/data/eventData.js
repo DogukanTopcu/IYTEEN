@@ -34,23 +34,27 @@ export const events = [
         time: "10.00",
         speakers: [
             {
-                name: "Prof. Dr. Yusuf Baran - Rektör",
+                name: "Prof. Dr. Yusuf Baran",
                 organization: "İzmir Yüksek Teknoloji Enstitüsü",
+                title: "Rektör",
                 img: YB
             },
             {
-                name: "Hülya Ulusoy Sungur - Expert",
+                name: "Hülya Ulusoy Sungur",
                 organization: "IZKA",
+                title: "Expert",
                 img: HulyaUlusoySungur
             },
             {
-                name: "Lütfi Kılıç - Temiz Enerji Komite Başkanı",
+                name: "Lütfi Kılıç",
                 organization: "İZTO",
+                title: "Temiz Enerji Komite Başkanı",
                 img: LutfiKilic
             },
             {
-                name: "Tibet Arbak - Yönetim Kurulu Başkan Yardımcısı",
+                name: "Tibet Arbak",
                 organization: "ENSIA",
+                title: "Yönetim Kurulu Başkan Yardımcısı",
                 img: TibetArbak
             },
             
@@ -63,13 +67,15 @@ export const events = [
         time: "10.30",
         speakers: [
             {
-                name: "Ebru Arıcı - Yönetim Kurulu Başkan Yardımcısı",
+                name: "Ebru Arıcı",
                 organization: "TÜREB",
+                title: "Yönetim Kurulu Başkan Yardımcısı",
                 img: EbruArici
             },
             {
-                name: "Burak Günay - Managing Partner",
+                name: "Burak Günay",
                 organization: "Win Solar",
+                title: "Managing Partner",
                 img: BurakGunay
             }
         ]
@@ -95,8 +101,9 @@ export const events = [
         time: "14.00",
         speakers: [
             {
-                name: "Doğan Çiçek - CTO",
+                name: "Doğan Çiçek",
                 organization: "Some Carbon Energy",
+                title: "CTO",
                 img: DoganCicek
             }
         ]
@@ -115,23 +122,27 @@ export const events = [
         time: "14.50",
         speakers: [
             {
-                name: "Mehmet Aybaş - Satış ve İş Geliştirme Direktörü",
+                name: "Mehmet Aybaş",
                 organization: "HSA Energy",
+                title: "Satış ve İş Geliştirme Direktörü",
                 img: MehmetAybas
             },
             {
-                name: "Doruk Öztürk - Genel Müdür",
+                name: "Doruk Öztürk",
                 organization: "Renevo",
+                title: "Genel Müdür",
                 img: DorukOzturk
             },
             {
-                name: "Atilla Yapar - Güneş Enerjisi İş Geliştirme Müdürü",
+                name: "Atilla Yapar",
                 organization: "KONTEK",
+                title: "Güneş Enerjisi İş Geliştirme Müdürü",
                 img: AtillaYapar
             },
             {
-                name: "Soner Aktaş - Yurt İçi Bayi Kanalı Proje Müdürü",
+                name: "Soner Aktaş",
                 organization: "CW Enerji",
+                title: "Yurt İçi Bayi Kanalı Proje Müdürü",
                 img: SonerAktas
             },
         ]
@@ -150,18 +161,21 @@ export const events = [
         time: "16.10",
         speakers: [
             {
-                name: "Şevval Şengül - Enerji Mühendisi",
+                name: "Şevval Şengül",
                 organization: "Enerjsa Üretim",
+                title: "Enerji Mühendisi",
                 img: SevvalSengul
             },
             {
-                name: "Zeliha Silleli Ünal - Enerji Yönerim Sistemi Uzmanı",
+                name: "Dr. Zeliha Silleli Ünal",
                 organization: "",
+                title: "Enerji Yönerim Sistemi Uzmanı",
                 img: ZelihaUnal
             },
             {
-                name: "Aslı Menekşe Odabaş Kırar - Strateji ve Süreç Geliştirme Yöneticisi",
+                name: "Dr. Aslı Menekşe Odabaş Kırar",
                 organization: "",
+                title: "Strateji ve Süreç Geliştirme Yöneticisi",
                 img: AslıMenekse
             },
 
@@ -174,8 +188,9 @@ export const events = [
         time: "16.30",
         speakers: [
             {
-                name: "Goşenay Kula - CW Gençlik Proje Yöneticisi",
+                name: "Goşenay Kula",
                 organization: "CW Enerji Gençlik Projesi",
+                title: "CW Gençlik Proje Yöneticisi",
                 img: Gosenay
             }
         ]
@@ -206,18 +221,21 @@ export const events = [
         time: "10.45",
         speakers: [
             {
-                name: "Ahmet Paksoy - Lead Trainer",
+                name: "Ahmet Paksoy",
                 organization: "NORDEX Group",
+                title: "Lead Trainer",
                 img: AhmetPaksoy
             },
             {
-                name: "Çetin Aykırı - Program Yönetimi ve Saha Hizmelteri Direktörü",
+                name: "Çetin Aykırı",
                 organization: "TPI Composİtes",
+                title: "Program Yönetimi ve Saha Hizmelteri Direktörü",
                 img: CetinAykiri
             },
             {
-                name: "Mehmet Gürbüz - Founder",
+                name: "Mehmet Gürbüz",
                 organization: "Anka Rüzgar Enerji Sistemleri",
+                title: "Founder",
                 img: MehmetGurbuz
             },
         ]
@@ -243,18 +261,21 @@ export const events = [
         time: "14.00",
         speakers: [
             {
-                name: "Dr. Can Sındraç - Senior R&D Lead Engineer",
+                name: "Dr. Can Sındraç",
                 organization: "ASPİLSAN",
+                title: "Senior R&D Lead Engineer",
                 img: CanSındrac
             },
             {
-                name: "Tuğba Onur Dalgagüsoğlu - Proje Yönetim Uzmanı",
+                name: "Tuğba Onur Dalgagüsoğlu",
                 organization: "Teksis İleri Teknolojiler",
+                title: "Proje Yönetim Uzmanı",
                 img: TugbaOnur
             },
             {
-                name: "Dr. Başar Çağlar - Dr. Öğretim Üyesi",
+                name: "Dr. Başar Çağlar",
                 organization: "İzmir Yüksek Teknoloji Enstitüsü",
+                title: "Dr. Öğretim Üyesi",
                 img: BasarCaglar
             },
         ]
@@ -273,23 +294,27 @@ export const events = [
         time: "15.20",
         speakers: [
             {
-                name: "Doç. Dr. Teoman Karadağ - Ar-Ge Danışmanı",
+                name: "Doç. Dr. Teoman Karadağ",
                 organization: "TEMSA",
+                title: "Ar-Ge Danışmanı",
                 img: TeomanKaradag
             },
             {
-                name: "Hüseyin Devrim - Genel Müdür",
+                name: "Hüseyin Devrim",
                 organization: "Teksis İleri Teknolojiler",
+                title: "Genel Müdür",
                 img: HuseyinDevrim
             },
             {
-                name: "Mustafa Şener - Powertrain Engineer",
+                name: "Mustafa Şener",
                 organization: "KARSAN",
+                title: "Powertrain Engineer",
                 img: MustafaSener
             },
             {
-                name: "Bilal Akgündüz - Founder",
+                name: "Bilal Akgündüz",
                 organization: "DOLUBATARYA",
+                title: "Founder",
                 img: BilalAkgunduz
             },
         ]
@@ -301,8 +326,9 @@ export const events = [
         time: "16.30",
         speakers: [
             {
-                name: "Prof. Dr. Alper Baba - Rektör Yardımcısı",
+                name: "Prof. Dr. Alper Baba",
                 organization: "İzmir Yüksek Teknoloji Enstitüsü",
+                title: "Rektör Yardımcısı",
                 img: AlperBaba
             }
         ]
