@@ -134,9 +134,9 @@ export const events = [
                 img: DorukOzturk
             },
             {
-                name: "Atilla Yapar",
+                name: "Attila Yapar",
                 organization: "KONTEK",
-                title: "Güneş Enerjisi İş Geliştirme Müdürü",
+                title: "Solar İş Geliştirme Direktörü",
                 img: AtillaYapar
             },
             {
@@ -162,14 +162,14 @@ export const events = [
         speakers: [
             {
                 name: "Şevval Şengül",
-                organization: "Enerjsa Üretim",
+                organization: "Enerjisa Üretim",
                 title: "Enerji Mühendisi",
                 img: SevvalSengul
             },
             {
                 name: "Dr. Zeliha Silleli Ünal",
                 organization: "",
-                title: "Enerji Yönerim Sistemi Uzmanı",
+                title: "Enerji Yönetim Sistemi Uzmanı",
                 img: ZelihaUnal
             },
             {
@@ -267,7 +267,7 @@ export const events = [
                 img: CanSındrac
             },
             {
-                name: "Tuğba Onur Dalgagüsoğlu",
+                name: "Tuğba Onur Dalgögüsoğlu",
                 organization: "Teksis İleri Teknolojiler",
                 title: "Proje Yönetim Uzmanı",
                 img: TugbaOnur
